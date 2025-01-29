@@ -11,7 +11,7 @@ public class SearchEngine extends BrowserInit {
 }
     public static void find_location() {
         driver.findElement(By.xpath("//*[@class='gLFyf']"));
-        System.out.println("test");
+        System.out.println("test1");
     }
     public static void enter_value() {
         driver.findElement(By.xpath("//*[@class='gLFyf']")).sendKeys("text");
